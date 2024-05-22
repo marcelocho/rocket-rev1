@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9F4FB;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "mulish", sans-serif;
+}
+
+h1 {
+    color: #B52184;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+p {
+   color: #312D64;
+   font-size: 2.0rem; 
+   font-weight: 600;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.astronauta {
+   padding: 0 33px;
+}
+
+.astronauta img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header .headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+
+.headerText img {
+    height: 4.5rem;
+    width: 3rem;
+    padding: 30px 14px;
+    border: solid 4px #B52184;
+    border-radius: 760px;  
+    box-sizing: unset; 
+    margin-top: 3.5rem;
+}
+
